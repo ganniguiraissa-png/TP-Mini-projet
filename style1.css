@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f6f1eb; /* Nude très doux */
+    display: flex;
+    gap: 20px;
+}
+
+/* Liste à gauche */
+.List1 {
+    width: 40%;
+    background: #fffaf6; /* Beige clair */
+    padding: 18px;
+    border: 1px solid #e3d7ce; /* Nude plus foncé */
+    border-radius: 6px;
+}
+
+.List1 h1 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #5b4a42; /* Marron doux */
+}
+
+.List1 li {
+    list-style: none;
+    padding: 10px;
+    background: #f9f3ee; /* Nude très léger */
+    border: 1px solid #e3d7ce;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.List1 li:hover {
+    background: #efe5dd; /* Hover nude */
+}
+
+/* Bouton */
+#bouton1 {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 1px solid #5b4a42;
+    background: #efe5dd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#bouton1:hover {
+    background: #e3d7ce;
+}
