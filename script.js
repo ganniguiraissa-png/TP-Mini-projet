@@ -3,19 +3,6 @@ let tasks = [{
     titre: "Vaisselle",
     description: "Faire la Vaisselle (laver les assiettes et les verres)",
     etat: false
-},
-{
-    id: 1,
-    titre: "Ranger",
-    description: " Ranger la chambre ",
-    etat: false
-
-},
-{
-    id: 2,
-    titre: "Courses",
-    description: "Faire les courses",
-    etat: false
 }];
 
 document.getElementById("bouton0").addEventListener("click", () => {
@@ -84,8 +71,5 @@ let click = 0;
           
         } else {
              detail.style.display = 'none';
-            
         }
  });
-
-
