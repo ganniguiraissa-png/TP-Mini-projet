@@ -2,30 +2,29 @@ body {
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background: #f6f1eb; /* Nude très doux */
+    background: #f6f1eb; 
     display: flex;
     gap: 20px;
 }
 
-/* Liste à gauche */
 .List1 {
     width: 40%;
-    background: #fffaf6; /* Beige clair */
+    background: #fffaf6; 
     padding: 18px;
-    border: 1px solid #e3d7ce; /* Nude plus foncé */
+    border: 1px solid #e3d7ce; 
     border-radius: 6px;
 }
 
 .List1 h1 {
     margin-top: 0;
     font-size: 22px;
-    color: #5b4a42; /* Marron doux */
+    color: #5b4a42; 
 }
 
 .List1 li {
     list-style: none;
     padding: 10px;
-    background: #f9f3ee; /* Nude très léger */
+    background: #f9f3ee; 
     border: 1px solid #e3d7ce;
     border-radius: 4px;
     margin-top: 10px;
@@ -33,10 +32,9 @@ body {
 }
 
 .List1 li:hover {
-    background: #efe5dd; /* Hover nude */
+    background: #efe5dd; 
 }
 
-/* Bouton */
 #bouton1 {
     margin-top: 20px;
     padding: 10px 15px;
