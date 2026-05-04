@@ -14,3 +14,22 @@ document.getElementById("bouton1").addEventListener("click", () => {
     }
 });
 
+document.getElementById("bouton2").addEventListener("click", () => {
+    const liste = document.getElementById("liste");
+    const items = liste.getElementsByTagName("li");
+
+    if (items.length === 0) {
+        alert("Aucune tâche à supprimer");
+        return;
+    }
+
+    const numero = prompt("Numéro de la tâche à supprimer :");
+
+    const index = parseInt(numero) - 1;
+
+    if (index >= 0 && index < items.length) {
+        items[index].remove();
+    } else {
+        alert("Numéro invalide");
+    }
+});
