@@ -23,19 +23,17 @@ let tasks = [{
 
 
 ];
-
-let click = 0;
-
-function validation() {
-    if (click == 1) {
-        function details(id) {
-            const task = tasks.find(t => t.id === id); //chercher la tache par id //
-            document.getElementById("titre").textContent = tasks.titre;
-            document.getElementById("description").textContent = tasks.description;
-            document.getElementById("etat").textContent = tasks.etat;
-        }
-
-    }
-}
 const button = document.getElementById('btn');
-btn.addEventListener(('click', () => validation()))
+const detail = document.getElementById('droite')
+let click = 0;
+ button.addEventListener('click', function() {
+ if (detail.style.display === 'none' || detail.style.display === '') {
+          detail.style.display = 'flex'; 
+          
+        } else {
+             detail.style.display = 'none';
+            
+        }
+ });
+
+
